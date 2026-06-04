@@ -24,7 +24,9 @@ While those approaches may help short-term, they often fail students when it com
 * Explaining *why* something works
 * Adapting knowledge to real-world networks
 
-This project aims to bridge that gap.
+In addtion, Tthere is currently a lack of resources using Cisco Modeling Labs. 
+
+This project aims to bridge those gaps.
 
 ---
 
@@ -91,7 +93,6 @@ CML allows learners to experience how networks *actually* behave, which aligns p
 
 ## What You’ll Find in This Repository
 
-* A **30-day CCNA study plan**
 * Topic-based folders aligned to CCNA domains
 * Step-by-step labs using the Build / Observe / Break / Fix model
 * Cisco Modeling Labs (CML) topologies and configurations
@@ -117,7 +118,7 @@ These materials are suitable for:
 
 ## How to Use This Repository
 
-1. Follow the 30-day study plan **or** jump to a topic you’re studying
+1. Follow the study plan **or** jump to a topic you’re studying
 2. Complete the labs in order:
 
    * Build
