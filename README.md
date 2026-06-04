@@ -24,7 +24,7 @@ While those approaches may help short-term, they often fail students when it com
 * Explaining *why* something works
 * Adapting knowledge to real-world networks
 
-In addtion, Tthere is currently a lack of resources using Cisco Modeling Labs. 
+In addtion, there is currently a lack of resources using Cisco Modeling Labs. 
 
 This project aims to bridge those gaps.
 
