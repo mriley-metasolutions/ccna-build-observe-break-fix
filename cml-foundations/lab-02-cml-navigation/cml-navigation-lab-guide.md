@@ -338,3 +338,7 @@ Remember:
 >
 > The philosophy applies to the tools just as much as it applies to the networks you build.
 
+---
+
+*CCNA – Build It · Observe It · Break It · Fix It This repository is an independent educational resource and is not officially affiliated with Cisco Systems. Cisco, CCNA, Cisco Modeling Labs, and Cisco Networking Academy are trademarks of Cisco Systems, Inc.*
+
