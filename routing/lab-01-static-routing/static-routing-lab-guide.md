@@ -474,4 +474,5 @@ R1# ping 192.168.30.1 source Loopback0 repeat 5
 ---
 
 *CCNA – Build It · Observe It · Break It · Fix It series*
-*Next: OSPF Single Area*
+
+*Next: RIP Routing*
