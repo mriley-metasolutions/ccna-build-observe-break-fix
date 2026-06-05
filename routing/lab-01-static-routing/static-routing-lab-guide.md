@@ -47,8 +47,6 @@ On the CCNA exam, you will see loopbacks used in both lab tasks and troubleshoot
         PC2 connected to R2 G0/0
 ```
 
-> **Full topology file:** `topology.yaml` (import into CML)
-
 **Nodes (5 total — within CML Free Edition limit):**
 - R1, R2, R3 (IOSv routers)
 - PC1 connected to R1
