@@ -1,4 +1,4 @@
-# Lab 02 – Navigating the Cisco Modeling Labs (CML) Interface
+# Navigating the Cisco Modeling Labs (CML) Interface
 
 ## Overview
 
@@ -320,7 +320,7 @@ Without instructions:
 
 If you can complete these tasks without referring to the lab guide, you're ready for the next module:
 
-> \*\*Lab 03 – Building Your First Multi-Device Network\*\*
+> \*\*Lab 03 – Building Your First Network\*\*
 
 \---
 
