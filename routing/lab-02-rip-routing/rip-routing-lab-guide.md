@@ -18,9 +18,9 @@
  
 ## Overview
  
-In the Static Routing lab, you manually configured every route. That works, but it doesn't scale — every time the network changes, you have to update every router by hand. Dynamic routing protocols solve this by having routers share what they know automatically.
+In the previous Static Routing lab, you manually configured every route. That works fine, but it does not scale well. Every time the network changes, you have to update every router by hand. Dynamic routing protocols solve this by having routers share what they know automatically.
  
-RIP (Routing Information Protocol) is the oldest and simplest dynamic routing protocol still in use. It's a **distance-vector** protocol — each router shares its entire routing table with its directly connected neighbors at regular intervals, and routes are chosen based on a single metric: **hop count**.
+RIP (Routing Information Protocol) is the oldest and simplest dynamic routing protocol still in use. It's a **distance-vector** protocol where each router shares its entire routing table with its directly connected neighbors at regular intervals, and routes are chosen based on a single metric: **hop count**.
  
 In this lab you will configure RIPv2 across a three-router topology, observe how routes propagate automatically, then break the network with three realistic RIP misconfigurations and troubleshoot your way back.
  
@@ -141,7 +141,7 @@ R1(config-router)# passive-interface Loopback0
 R1(config-router)# exit
 ```
  
-> **Key concept — the `network` command in RIP:** Unlike OSPF, RIP's `network` command takes a **classful** network address with no wildcard mask. When you enter `network 10.0.0.0`, RIP enables itself on *every* interface whose IP falls within the 10.0.0.0/8 range. This is less precise than OSPF and occasionally surprises people — it's worth understanding the difference.
+> **Key concept — the `network` command in RIP:** Unlike the 'network' command in OSPF, RIP's `network` command takes a **classful** network address with no wildcard mask. When you enter `network 10.0.0.0`, RIP enables itself on *every* interface whose IP falls within the 10.0.0.0/8 range. This is less precise than OSPF and occasionally surprises people — it's worth understanding the difference.
  
 ### Step 2 — Configure RIPv2 on R2
  
