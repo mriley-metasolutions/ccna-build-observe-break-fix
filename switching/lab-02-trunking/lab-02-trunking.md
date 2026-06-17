@@ -17,6 +17,7 @@ In this lab you will connect two switches with an 802.1Q trunk, extend two VLANs
 - 2.2.a – Trunk ports
 - 2.2.b – 802.1Q
 - 2.2.c – Native VLAN
+
 **Estimated Time:** 60–90 minutes
  
 ---
