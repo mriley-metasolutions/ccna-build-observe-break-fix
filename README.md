@@ -14,17 +14,17 @@ Because the best way to learn networking is to *experience* it.
 
 Too many CCNA resources focus on:
 
-* Memorizing syntax
+* Memorizing syntax and commands
 * Copying configurations
 * Passing the exam without understanding network behavior
 
 While those approaches may help short-term, they often fail students when it comes to:
 
 * Troubleshooting and Problem Solving
-* Explaining *why* something works
+* Explaining *why* something works, or doesn't work
 * Adapting knowledge to real-world networks
 
-In addtion, there is currently a lack of resources using Cisco Modeling Labs. 
+In addition, there is currently a lack of resources using Cisco Modeling Labs Free edition.  
 
 This project aims to bridge those gaps.
 
@@ -70,7 +70,7 @@ Finally, you troubleshoot and fix the issue.
 * Apply a structured troubleshooting process
 * Validate that the network works again
 
-This mirrors how networking works in the real world—and how CCNA questions are designed.
+This mirrors how networking works in the real world, and how CCNA questions are designed.
 
 ---
 
@@ -78,7 +78,7 @@ This mirrors how networking works in the real world—and how CCNA questions are
 
 This repository uses **Cisco Modeling Labs (CML) Free** as its primary lab platform.
 
-While many CCNA resources rely on Packet Tracer, CML offers key advantages:
+While many CCNA resources rely on Packet Tracer, which is also a great tool, CML offers key advantages such as:
 
 * Real Cisco IOS images and behavior
 * Accurate routing protocol operation
@@ -93,9 +93,9 @@ CML allows learners to experience how networks *actually* behave, which aligns p
 
 ## What You’ll Find in This Repository
 
-* Topic-based folders aligned to CCNA domains
+* Topic-based folders aligned to the CCNA domains
 * Step-by-step labs using the Build / Observe / Break / Fix model
-* Cisco Modeling Labs (CML) topologies and configurations
+* Sample Cisco Modeling Labs (CML) topologies and configurations
 * Troubleshooting playbooks for common CCNA scenarios
 * Instructor insights drawn from years of teaching experience
 
@@ -104,7 +104,7 @@ These materials are suitable for:
 * CCNA students
 * Cisco Networking Academy learners
 * Career-changers entering IT
-* Instructors looking for classroom-ready labs
+* Cisco Networking Academy Instructors looking for classroom-ready labs
 
 ---
 
@@ -126,13 +126,13 @@ These materials are suitable for:
    * Break
    * Fix
 3. Take notes on *why* the network behaves the way it does
-4. Repeat labs and experiment—curiosity is encouraged
+4. Repeat labs and experiment, curiosity is encouraged
 
 ---
 
 ## A Note on Learning
 
-Mistakes are not failures—they’re part of the process.
+Mistakes are not failures. They’re an important part of the learning process.
 
 If you’ve ever learned more from a broken network than a working one, you’re in the right place.
 
