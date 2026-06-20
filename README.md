@@ -74,6 +74,70 @@ This mirrors how networking works in the real world, and how CCNA questions are 
 
 ---
 
+## Repository Structure
+
+The repository is organized into topic sections that follow the natural learning order of the CCNA. Each section has its own README with a guided path through its labs.
+
+### [01 · CML Foundations](./01-cml-foundations/)
+Getting Cisco Modeling Labs Free running and building your first network.
+* `lab-01-cml-installation`
+* `lab-02-cml-navigation`
+* `lab-03-first-network`
+
+### [02 · Routing](./02-routing/)
+Moving packets between networks, from static routes to OSPF.
+* `lab-01-static-routing`
+* `lab-02-rip-routing`
+* `lab-03-default-routing`
+* `lab-04-single-area-ospf`
+
+### [03 · Switching](./03-switching/)
+The Layer 2 world, ending in a full collapsed core campus build.
+* `lab-01-vlans`
+* `lab-02-trunking`
+* `lab-03-inter-vlan-routing-router-on-a-stick`
+* `lab-04-inter-vlan-routing-layer3-switch`
+* `lab-05-etherchannel`
+* `lab-06-stp`
+* `lab-07-capstone`
+
+### [04 · Services](./04-services/)
+The services that make a network usable and operable.
+* `lab-01-dhcp`
+* `lab-02-nat`
+* `lab-03-dns`
+* `lab-04-ntp`
+* `lab-05-syslog-and-snmp`
+
+### [05 · Security](./05-security/)
+Hardening the network in layers, from device access to the spoofing defenses at the edge.
+* `concept-01-security-fundamentals` *(concept guide, read first)*
+* `lab-01-ssh`
+* `lab-02-port-security`
+* `lab-03-standard-acls`
+* `lab-04-extended-acls`
+* `lab-05-dhcp-snooping-and-dai`
+
+---
+
+## What Every Lab Contains
+
+Labs follow a consistent structure, so once you have done one, you know how to navigate them all. Each lab guide includes:
+
+* **Overview** with CCNA exam objective alignment and an estimated time
+* **Prerequisites** so you can confirm you are ready before you start
+* **Key Concept** primer that explains the idea before you configure it
+* **Topology diagram** and an **addressing table**
+* **Lab Objectives**, the concrete skills you will walk away with
+* The four phases: **🧱 Build It · 👀 Observe It · 💥 Break It · 🔧 Fix It**
+* **Reflection Questions** to check your understanding
+* **Challenge Extension** for going further
+* **Instructor Notes** with common student mistakes and teaching tips
+
+That last section is deliberately uncommon in public repositories. The Instructor Notes are written for the educator in the room, surfacing the mistakes students actually make and the tips that help concepts land. If you are teaching from these materials, that is where the classroom experience lives.
+
+---
+
 ## Why Cisco Modeling Labs (CML)
 
 This repository uses **Cisco Modeling Labs (CML) Free** as its primary lab platform.
@@ -89,14 +153,18 @@ CML allows learners to experience how networks *actually* behave, which aligns p
 
 > Some labs may be reproducible in Packet Tracer, but CML is the primary platform for accuracy and realism.
 
+### A Note on the Five-Node Design Constraint
+
+CML Free Edition allows up to five running nodes at once, and every lab in this repository is deliberately designed to fit within that limit. That constraint shaped many of the topologies in useful ways. Loopback interfaces stand in for additional networks, unmanaged switches extend a topology without counting against the limit, and extra links rather than extra devices are used where possible. The result is that every lab here runs on the free edition, with no licensing required to follow along.
+
 ---
 
 ## What You’ll Find in This Repository
 
 * Topic-based folders aligned to the CCNA domains
 * Step-by-step labs using the Build / Observe / Break / Fix model
-* Sample Cisco Modeling Labs (CML) topologies and configurations
-* Troubleshooting playbooks for common CCNA scenarios
+* Full device configurations and topology diagrams for every lab
+* Built-in troubleshooting practice through deliberate Break and Fix scenarios
 * Instructor insights drawn from years of teaching experience
 
 These materials are suitable for:
@@ -116,6 +184,20 @@ These materials are suitable for:
 
 ---
 
+## Suggested Learning Path
+
+If you are working through the whole CCNA, the sections are meant to be taken in order, because each one builds on the last:
+
+1. **CML Foundations**, to get your lab environment running
+2. **Routing**, the core logic of moving packets between networks
+3. **Switching**, the Layer 2 world that sits beneath routing
+4. **Services**, the features that make a network usable and manageable
+5. **Security**, which hardens everything you have built
+
+If you are studying a specific topic instead, jump straight to that section. Each one stands on its own, and any prerequisites are listed at the top of every lab.
+
+---
+
 ## How to Use This Repository
 
 1. Follow the study plan **or** jump to a topic you’re studying
@@ -127,6 +209,20 @@ These materials are suitable for:
    * Fix
 3. Take notes on *why* the network behaves the way it does
 4. Repeat labs and experiment, curiosity is encouraged
+
+---
+
+## Project Status
+
+This repository has grown into a substantial, classroom-ready library. The following sections are complete, each with a full set of labs and a guided section README:
+
+* ✅ **CML Foundations** — installation, navigation, and first network
+* ✅ **Routing** — static, default, RIP, and single-area OSPF
+* ✅ **Switching** — VLANs through a full collapsed core capstone
+* ✅ **Services** — DHCP, NAT, DNS, NTP, Syslog, and SNMP
+* ✅ **Security** — fundamentals, SSH and hardening, port security, ACLs, and Layer 2 spoofing defenses
+
+The project continues to grow, and labs are refined over time as they are taught and tested.
 
 ---
 
@@ -153,4 +249,3 @@ If something can be clearer, more realistic, or more helpful—let’s make it b
 
 **Build it. Observe it. Break it. Fix it.**
 That’s how networks—and networking careers—are built.
-
