@@ -78,20 +78,20 @@ This mirrors how networking works in the real world, and how CCNA questions are 
 
 The repository is organized into topic sections that follow the natural learning order of the CCNA. Each section has its own README with a guided path through its labs.
 
-### [01 · CML Foundations](./01-cml-foundations/)
+### [01 · CML Foundations](./cml-foundations/)
 Getting Cisco Modeling Labs Free running and building your first network.
 * `lab-01-cml-installation`
 * `lab-02-cml-navigation`
 * `lab-03-first-network`
 
-### [02 · Routing](./02-routing/)
+### [02 · Routing](./routing/)
 Moving packets between networks, from static routes to OSPF.
 * `lab-01-static-routing`
 * `lab-02-rip-routing`
 * `lab-03-default-routing`
 * `lab-04-single-area-ospf`
 
-### [03 · Switching](./03-switching/)
+### [03 · Switching](./switching/)
 The Layer 2 world, ending in a full collapsed core campus build.
 * `lab-01-vlans`
 * `lab-02-trunking`
@@ -101,7 +101,7 @@ The Layer 2 world, ending in a full collapsed core campus build.
 * `lab-06-stp`
 * `lab-07-capstone`
 
-### [04 · Services](./04-services/)
+### [04 · Services](./services/)
 The services that make a network usable and operable.
 * `lab-01-dhcp`
 * `lab-02-nat`
@@ -109,7 +109,7 @@ The services that make a network usable and operable.
 * `lab-04-ntp`
 * `lab-05-syslog-and-snmp`
 
-### [05 · Security](./05-security/)
+### [05 · Security](./security/)
 Hardening the network in layers, from device access to the spoofing defenses at the edge.
 * `concept-01-security-fundamentals` *(concept guide, read first)*
 * `lab-01-ssh`
